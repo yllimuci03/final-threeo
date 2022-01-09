@@ -52,7 +52,7 @@ const usePrevious = (value) => {
 
 
 
-const socket = io.connect(' http://final-threeo.herokuapp.com');
+const socket = io.connect('https://happy-threeo.herokuapp.com');
 // const live = 'https://threeo.herokuapp.com'
 function App() {
   const [connected, setConnected]= useState(false)
